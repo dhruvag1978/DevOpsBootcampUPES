@@ -1,16 +1,14 @@
 Local DNS Server IP
--------------------
-<ip-here>
+127.0.0.53
 
 
 
 Default gateway IP
--------------------
-<ip-here>
+10.0.0.1
 
 
 
 DHCP IP allocation sys-logs
--------------------
-<logs-here>
-
+Jun 18 19:24:07 Dhruv-VirtualBox NetworkManager[615]: <info>  [1687096447.2700] dhcp-init: Using DHCP client 'internal'
+Jun 18 19:32:25 Dhruv-VirtualBox NetworkManager[637]: <info>  [1687096945.8620] dhcp-init: Using DHCP client 'internal'
+Jun 18 19:44:38 Dhruv-VirtualBox NetworkManager[653]: <info>  [1687097678.6133] dhcp-init: Using DHCP client 'internal'
