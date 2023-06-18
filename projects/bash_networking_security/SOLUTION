@@ -9,6 +9,9 @@ Default gateway IP
 
 
 DHCP IP allocation sys-logs
-Jun 18 19:24:07 Dhruv-VirtualBox NetworkManager[615]: <info>  [1687096447.2700] dhcp-init: Using DHCP client 'internal'
-Jun 18 19:32:25 Dhruv-VirtualBox NetworkManager[637]: <info>  [1687096945.8620] dhcp-init: Using DHCP client 'internal'
-Jun 18 19:44:38 Dhruv-VirtualBox NetworkManager[653]: <info>  [1687097678.6133] dhcp-init: Using DHCP client 'internal'
+Jun 18 14:50:09 ip-10-0-0-179 dhclient[355]: Internet Systems Consortium DHCP Client 4.4.1
+Jun 18 14:50:09 ip-10-0-0-179 dhclient[355]: DHCPDISCOVER on ens5 to 255.255.255.255 port 67 interval 3 (xid=0x4a76a61e)
+Jun 18 14:50:09 ip-10-0-0-179 dhclient[355]: DHCPOFFER of 10.0.0.179 from 10.0.0.1
+Jun 18 14:50:09 ip-10-0-0-179 dhclient[355]: DHCPREQUEST for 10.0.0.179 on ens5 to 255.255.255.255 port 67 (xid=0x1ea6764a)
+Jun 18 14:50:09 ip-10-0-0-179 dhclient[355]: DHCPACK of 10.0.0.179 from 10.0.0.1 (xid=0x4a76a61e)
+Jun 18 14:50:09 ip-10-0-0-179 systemd-networkd[391]: ens5: DHCPv4 address 10.0.0.179/24 via 10.0.0.1
